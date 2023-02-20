@@ -1,5 +1,25 @@
 *{
-    padding: 0;
-    margin: 0;
-    background-color: darkseagreen;
+    padding: 3px;
+    margin: 20px;
+    background-image: url("./imagen/fondodoprincipal.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.colorlink{
+    color: #989cb4;
+}
+
+.colorlinkdos{
+    color: #787c8c;
+}
+
+.colorlinktres{
+    color: #c5d3aa;
+}
+
+.colorlinkcuatro{
+    color: #687c54;
 }
