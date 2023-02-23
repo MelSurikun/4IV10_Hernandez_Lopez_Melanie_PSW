@@ -86,4 +86,16 @@ function validar(formulario){
         formulario.edad.focus();
         return false;
     }
+
+    //es obtener el campo de correo
+
+    var email = formulario.correo.value;
+
+    //vamos a crear una expresión regular
+
+    var prueba = /([Aa-Zz]+[0-9]+\.)\@{10}\@([Aa-Zz]+[0-9]+\.){8}\.([Aa-Zz]+[0-9]){3}/g;
+
+     alert("Email " + (prueba.test(email) ? " " : " no ") + "valido");
+
+     return prueba.test;
 }
