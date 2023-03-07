@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+    margin: 20px;
+    background-image: url("../imagenes/fondo7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+    font-family: "Courier New";
+    text-align: justify;
+}
+
+.container{
+    background-color: whitesmoke;
+    height: 375px;
+    width: 520px;
+    border-radius: 10px;
+    margin-top: 9%;
+    border-radius: 20px;
+    color: black;
+}
+
+a{
+    color: darkslategray;
+}

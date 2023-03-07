@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 1</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body oncopy="return false" onpaste="return false">
+    <div class="container">
+        <form method="get" name = "formulario" action="">
+            <br>
+            <label>
+                <h2 align="center">PROBLEMA 1</h2>
+            </label>
+            <div class="tabla-container">
+                <table id="tabla" class="tablai">
+                    <tr>
+                        <td>Introduce la cantidad que desea invertir:</td> 
+                        <td><input type="text" id="cantidad" min="0" max="99999999"
+                            onkeypress="return validarn(event)"></td>
+                        <br><br>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="button" name="invertir"  onclick="return interes()" value="Calcular Interes"></td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <br><br>
+                            Su sueldo total con el interes del 8.2% mensual es de:
+                        </td>
+                        <td>
+                            <input type="text" nombre="sueldoi" id="cantidadi" readonly="readonly" class="input_text">
+                        </td>
+                        <br>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Con un máximo de 36 meses es de:
+                        </td>
+                        <td>
+                            <input type="text" nombre="mesesm" id="maximom" readonly="readonly" class="input_text">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="button" nombre="borrar" value="Borrar Datos"
+                            onclick="return borrard()"></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+        <script src="./js/js1.js"></script>
+        <br>
+        <h6 align="center"><a href="../index.html">Regresar a la página principal</a></h6>
+        <br>
+        <h6 align="center"><a href="./problema2.html">Ir al problema 2</a></h6>
+    </div>
+</body>
+</html>

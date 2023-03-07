@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #fddb92; background: -moz-linear-gradient(to right,  #fddb92 0%,#d1fdff 100%); 
+    background: -webkit-linear-gradient(to right,  #fddb92 0%,#d1fdff 100%); 
+    background: linear-gradient(to right,  #fddb92 0%,#d1fdff 100%);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    font-family: "Candara";
+}
+
+header{
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: white;
+}
+
+nav{
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    background: #fddb92; background: -moz-linear-gradient(to right,  #fddb92 0%,#d1fdff 100%); 
+    background: -webkit-linear-gradient(to right,  #fddb92 0%,#d1fdff 100%); 
+    background: linear-gradient(to right,  #fddb92 0%,#d1fdff 100%);
+}
+
+div{
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.datos{
+    background-color: #fddb92; background: -moz-linear-gradient(to right,  #fddb92 0%,#d1fdff 100%); 
+    background: -webkit-linear-gradient(to right,  #fddb92 0%,#d1fdff 100%); 
+    background: linear-gradient(to right,  #fddb92 0%,#d1fdff 100%);
+}
+
+.tabla-container{
+    background-color: white;
+}
+
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}

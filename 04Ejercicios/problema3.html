@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 3</title>
+    <link rel="stylesheet" href="./css/style3.css">
+</head>
+<body oncopy="return false" onpaste="return false">
+    <div class="container">
+            <br>
+            <label>
+                <h2 align="center">PROBLEMA 3</h2>
+            </label>
+
+            <div class="tabla-container">
+                <form nombre="formulario" method="get" action="">
+                    <br>
+                    <label>Nombre del producto: </label>
+                    <input type="text" name="nombre"
+                    id="nombre" onkeypress="return validarL(event)" required>
+                    <br><br>
+    
+                    <label>Marca del producto: </label>
+                    <input type="text" name="marca" 
+                    id="marca" onkeypress="return validarL(event)" required>
+                    <br><br>
+    
+                    <label>Tipo de producto: </label>
+                    <input type="text" name="tipo" 
+                    id="tipo" onkeypress="return validarL(event)" required>
+                    <br><br>
+    
+                    <label>Precio del producto: </label>
+                    <input type="number" name="precio"
+                    id="precio" min="01" max="999" 
+                    onkeypress="return validarn(event)" required>
+                    <br><br>
+    
+                    <input type="button" name="enviar"  onclick="return cantifinal()"
+                    value="Calcular">  
+                    <br><br>     
+
+                    <td>
+                            Su total a pagar es:
+                    </td>
+                    <td>
+                        <input type="text" nombre="final" id="cantidad" readonly="readonly" 
+                        class="input_text">
+                    </td>
+                    <br><br>
+
+                    <input type="button" name="borrar"
+                    value="Borrar Datos" onclick="return borrard()">           
+                </form>
+            </div>
+        <script src="js/js3.js"></script>
+        <br>
+        <h6 align="center"><a href="../index.html">Regresar a la página principal</a></h6>
+        <br>
+        <h6 align="center"><a href="./problema4.html">Ir al problema 4</a></h6>
+    </div>
+</body>
+</html>

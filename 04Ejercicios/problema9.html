@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 9</title>
+    <link rel="stylesheet" href="./css/style9.css">
+</head>
+<body oncopy="return false" onpaste="return false">
+    <div class="container">
+            <br>
+            <label>
+                <h2 align="center">PROBLEMA 9</h2>
+            </label>
+
+            <div class="tabla-container">
+                <form nombre="formulario" method="get" action="">
+                <br>
+                <label>Ingresa las horas trabajadas: </label>
+                <input type="number" id="horas" onkeypress="return validarn(event)"
+                min="1" max="9999999" required>
+                <h6>Se consideran horas extras a más de 40</h6>
+                <br><br>
+
+                <br>
+                <label>Ingresa el costo por hora de trabajo: </label>
+                <input type="number" id="costo" onkeypress="return validarn(event)"
+                min="1" max="9999999" required>
+                <br><br>
+
+                <input type="button" name="enviar" onclick="return final()"
+                value="Calcular Cobro">  
+                <br><br>  
+
+                 <td>
+                        Su contidad de dinero que recibirá:
+                </td>
+                <td>
+                    <input type="text" nombre="final" id="pago" readonly="readonly"                         
+                    class="input_text">
+                </td>
+                <h6>Por horas extras trabajadas</h6>
+                <br><br>
+
+                <input type="button" name="borrar"
+                value="Borrar Datos" onclick="return borrard()">
+                </form>
+            </div>
+        <script src="./js/js9.js"></script>
+        <br>
+        <h6 align="center"><a href="../index.html">Regresar a la página principal</a></h6>
+        <br>
+        <h6 align="center"><a href="./problema10.html">Ir al problema 10</a></h6>
+    </div>
+</body>
+</html>

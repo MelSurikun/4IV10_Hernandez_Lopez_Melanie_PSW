@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 6</title>
+    <link rel="stylesheet" href="./css/style6.css">
+</head>
+<body oncopy="return false" onpaste="return false">
+    <div class="container">
+        <form method="get" name = "formulario" action="">
+            <br>
+            <label>
+                <h2 align="center">PROBLEMA 6</h2>
+            </label>
+            <div class="tabla-container">
+                <form nombre="formulario" method="get"
+                onsubmit="return validar(this)">
+                    <br>
+                    <label>Fecha de Nacimiento: </label>
+                    <input type="date" name="fecha"
+                    id="miento" required>
+                    <br><br>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="button" name="enviar" value="Calcular Edad"
+                            onclick="return fechavali()"></td>
+                    </tr>
+                    <br><br>
+
+                    <td>
+                        Su edad actual es:
+                    </td>
+                    <td>
+                        <input type="text" nombre="fechaf" id="mientof" readonly="readonly" 
+                        class="input_text">
+                    </td>
+                    <br><br>
+
+                    <input type="reset" name="borrar"
+                    value="Borrar Datos">   
+                </form>
+            </div>
+        </form>
+        <script src="./js/js6.js"></script>
+        <br>
+        <h6 align="center"><a href="../index.html">Regresar a la página principal</a></h6>
+        <br>
+        <h6 align="center"><a href="./problema7.html">Ir al problema 7</a></h6>
+    </div>
+</body>
+</html>
